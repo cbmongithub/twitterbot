@@ -1,1 +1,1 @@
-worker: node chatbot.js
+worker: npm start
