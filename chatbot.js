@@ -52,6 +52,9 @@ function runTask() {
          postTweet()
      })
 }
+
+console.log('Running task...')
+
 // Post a tweet every 2 hours 
 setInterval(() => {
     runTask()
