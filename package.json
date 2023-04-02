@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node chatbot.js"
+    "start": "node chatbot.js",
+    "dev": "nodemon chatbot.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "needle": "^3.2.0",
     "openai": "^3.2.1",
     "twit": "^2.2.11"
+  }, 
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
