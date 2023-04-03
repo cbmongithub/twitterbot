@@ -90,4 +90,4 @@ setInterval(() => {
 // Post a tweet every 2 hours 
 setInterval(() => {
   postTweet()
-}, 1000 * 60 * 120 )
+}, 1000 * 60 * 60 )
