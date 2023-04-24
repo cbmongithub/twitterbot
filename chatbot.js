@@ -23,7 +23,7 @@ function postTweet() {
   // Generate a random topic for a tweet
   function randomTopic() {
     let randomNum = Math.floor(Math.random() * tweetTopics.length)
-    return `Generate a tweet about ${tweetTopics[randomNum]}`
+    return `You are a smart twitter bot that sends quality tweets. Generate a unique tweet about ${tweetTopics[randomNum]} without hashtags.`
   }
   async function runCompletion() {
     const completion = await openai.createCompletion({
